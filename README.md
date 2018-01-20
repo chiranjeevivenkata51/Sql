@@ -16,3 +16,6 @@ END
 SET @m='Sai';
 CALL `test`.`a`(@m, @o);
 select @o;
+
+/* if statement
+select b,IF(c>18000,"A","B")AS salgrade from ac;
